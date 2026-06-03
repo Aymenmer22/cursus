@@ -1,0 +1,24 @@
+{
+  "name": "cursus",
+  "version": "1.0.0",
+  "description": "Plateforme de calcul des moyennes universitaires UDL-SBA",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run dev --workspace=backend & npm run dev --workspace=frontend",
+    "build": "npm run build --workspace=backend && npm run build --workspace=frontend",
+    "test": "npm run test --workspace=backend && npm run test --workspace=frontend"
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "keywords": [
+    "university",
+    "grades",
+    "calculator",
+    "UDL-SBA",
+    "MERN"
+  ],
+  "author": "Aymenmer22",
+  "license": "MIT"
+}
